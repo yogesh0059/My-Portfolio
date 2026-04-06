@@ -18,7 +18,7 @@ This portfolio showcases my projects, skills, and experience as a Frontend Devel
 - Vite
 
 ## 🌐 Live Demo
-https://your-portfolio-link.netlify.app
+https://yogeshportfolio24.netlify.app/
 
 ## 📂 GitHub Repository
 https://github.com/yogesh0059/My-Portfolio
