@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Sparkles } from "lucide-react";
 
-const roles = ["Frontend Developer", "React Developer", "UI Enthusiast", "Problem Solver"];
+const roles = ["Full-Stack Developer", "React Developer", "UI Enthusiast", "Problem Solver"];
 
 const Hero = () => {
   const [showSubtitle, setShowSubtitle] = useState(false);

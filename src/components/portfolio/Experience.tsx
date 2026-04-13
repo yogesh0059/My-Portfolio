@@ -3,10 +3,10 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    role: "Frontend Developer Trainee",
+    role: "Full-Stack Developer Trainee",
     company: "Bootcamp Training at sharda university",
     period: "2025",
-    description: "Completed frontend bootcamp training. Built multiple real-world projects using HTML, CSS, JavaScript, React, and Tailwind CSS. Focused on UI/UX and responsive design.",
+    description: "Completed full-stack bootcamp training. Built multiple real-world projects using HTML, CSS, JavaScript, React, Node.js, and MongoDB. Focused on UI/UX and responsive design.",
     highlights: ["Real-World Projects", "UI/UX", "Responsive Design"],
   },
 ];

@@ -1,12 +1,22 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { useRef, useCallback } from "react";
-import { Code } from "lucide-react";
+import { Code, Server, Wrench } from "lucide-react";
 
 const skillGroups = [
   {
     title: "Frontend",
     icon: Code,
     skills: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+  },
+  {
+    title: "Backend",
+    icon: Server,
+    skills: ["Node.js", "Express", "MongoDB"],
+  },
+  {
+    title: "Tools",
+    icon: Wrench,
+    skills: ["Git", "GitHub", "VS Code"],
   },
 ];
 
@@ -27,9 +37,15 @@ const Skills = () => {
       <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-secondary/3 blur-[200px] pointer-events-none" />
 
       <div className="container mx-auto px-6 max-w-5xl section-reveal">
-        <h2 className="text-3xl md:text-4xl font-bold mb-2 gradient-text">Skills & Tech</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-2 gradient-text">
+          Skills & Tech
+        </h2>
+
         <div className="w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-4" />
-        <p className="text-muted-foreground mb-12 max-w-xl">Technologies I work with daily to build exceptional products.</p>
+
+        <p className="text-muted-foreground mb-12 max-w-xl">
+          Technologies I use to build modern and scalable web applications.
+        </p>
 
         <div className="grid md:grid-cols-3 gap-6">
           {skillGroups.map((group, idx) => {
@@ -45,8 +61,11 @@ const Skills = () => {
                   <div className="w-10 h-10 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center">
                     <Icon className="w-5 h-5 text-primary" />
                   </div>
-                  <h3 className="text-lg font-semibold text-foreground">{group.title}</h3>
+                  <h3 className="text-lg font-semibold text-foreground">
+                    {group.title}
+                  </h3>
                 </div>
+
                 <div className="flex flex-wrap gap-2">
                   {group.skills.map((skill) => (
                     <span key={skill} className="skill-chip">
