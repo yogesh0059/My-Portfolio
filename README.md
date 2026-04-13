@@ -1,21 +1,32 @@
 # Yogesh Portfolio
 
-A modern, animated developer portfolio built with React and Tailwind CSS.
+A modern, animated full stack developer portfolio built with React, Tailwind CSS, and backend integration.
 
 ## 🚀 About
-This portfolio showcases my projects, skills, and experience as a Frontend Developer.
+This portfolio showcases my projects, skills, and experience as a Full Stack Developer, including both frontend and backend applications.
 
 ## ✨ Features
-- Smooth animations and modern UI
-- Responsive design (mobile + desktop)
-- Interactive project cards with live demo links
-- Contact section for direct communication
+- Smooth animations and premium UI design
+- Fully responsive (mobile + desktop)
+- Interactive project showcase with live demos
+- Frontend + Full Stack project sections
+- Contact form integration
 
 ## 🛠 Tech Stack
+Frontend:
 - React
 - TypeScript
 - Tailwind CSS
-- Vite
+
+Backend:
+- Node.js
+- Express
+- MongoDB
+
+Tools:
+- Git
+- GitHub
+- VS Code
 
 ## 🌐 Live Demo
 https://yogeshportfolio24.netlify.app/
