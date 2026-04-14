@@ -43,8 +43,8 @@ const backendProjects = [
     title: "VoucherHub",
     description: "A full-stack platform for managing and generating discount vouchers with secure backend integration and user authentication.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
-    live: "#",
-    github: "#",
+    live: "https://voucherhub2.netlify.app/",
+    github: "https://github.com/yogesh0059/voucherhub2",
     accent: "from-secondary to-primary",
   },
 ];
